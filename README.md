@@ -62,4 +62,6 @@ Open the main.ipynb notebook, the hyperparameters for the DQN agent can be chang
 
 A number of hypermeters can be changed such as buffer_size, batch_size and whether you want the DQN agent to use prioritized experience replay.
 
+Run all the cells to start training the DQN agent. Once an average score of 13 is achieved the model will save the weights to the current working directory.
+
 
