@@ -28,22 +28,22 @@ Setting up the environment
 
 1. First we need to create and activate the environment with Python 3.6
 
-	conda create --name drlnd python=3.6 
-	activate drlnd
+		conda create --name drlnd python=3.6 
+		activate drlnd
 
 2. Next download the enviroment dependencies with the requirements.txt file
 
-	pip install -r requirements.txt
+		pip install -r requirements.txt
 
 3. Clone the Github repository 
 
-	git clone https://github.com/udacity/deep-reinforcement-learning.git
-	cd deep-reinforcement-learning/python
-	pip install .
+		git clone https://github.com/udacity/deep-reinforcement-learning.git
+		cd deep-reinforcement-learning/python
+		pip install .
 
 4. Create an IPython kernel for the drlnd environment
 
-	python -m ipykernel install --user --name drlnd --display-name "drlnd"
+		python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 5. Make sure drlnd is selected and drlnd appears in the top right corner instead of Python when inside the notebook
 
