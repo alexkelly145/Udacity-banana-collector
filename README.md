@@ -7,14 +7,12 @@ A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is
 The environment consists of episodic tasks and is considered solved when a reward of 13 is achieved.
 
 The states in the environment have 37 dimensions which contains information about the agent’s position, 
-velocity and what’s in front of the agent. From each state one of 4 discrete actions can be taken. 
-
-These actions are move forward, move backwards, turn left, and turn right. 
+velocity and what’s in front of the agent. From each state one of 4 discrete actions can be taken: 
  
-0 - move forward.
-1 - move backward.
-2 - turn left.
-3 - turn right.
+	0 - move forward
+	1 - move backward
+	2 - turn left
+	3 - turn right
 
 Getting Started
 
