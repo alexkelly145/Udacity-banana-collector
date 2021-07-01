@@ -6,7 +6,7 @@ The objective is to navigate around the environment collecting yellow bananas an
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.
 
 
-The environment consists of episodic tasks and is considered solved when a reward of 13 is achieved.
+The environment consists of episodic tasks and is considered solved when an average reward of 13 is achieved over 100 episodes.
 
 
 The states in the environment have 37 dimensions which contains information about the agent’s position, 
