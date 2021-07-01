@@ -38,8 +38,6 @@ Setting up the environment
 3. Clone the Github repository 
 
 		git clone https://github.com/alexkelly145/Udacity-banana-collector.git
-		cd deep-reinforcement-learning/python
-		pip install .
 
 4. Create an IPython kernel for the drlnd environment
 
