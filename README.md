@@ -1,10 +1,13 @@
 # Udacity-banana-collector
 Udacity p1_navigation project
+
  
 The objective is to navigate around the environment collecting yellow bananas and avoiding blue ones. 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.
 
+
 The environment consists of episodic tasks and is considered solved when a reward of 13 is achieved.
+
 
 The states in the environment have 37 dimensions which contains information about the agent’s position, 
 velocity and what’s in front of the agent. From each state one of 4 discrete actions can be taken: 
@@ -13,6 +16,9 @@ velocity and what’s in front of the agent. From each state one of 4 discrete a
 	1 - move backward
 	2 - turn left
 	3 - turn right
+	
+
+
 
 Getting Started
 
@@ -52,6 +58,8 @@ There are 4 files needed to run the code:
 
 Make sure all these files are in the same directory.
 
-Open the main.ipynb notebook, the hyperparameters for the DQN agent can be changed in cell 4. A number of hypermeters can be changed such as buffer_size, batch_size and whether you want the DQN agent to use prioritized experience replay.
+Open the main.ipynb notebook, the hyperparameters for the DQN agent can be changed in cell 4. 
+
+A number of hypermeters can be changed such as buffer_size, batch_size and whether you want the DQN agent to use prioritized experience replay.
 
 
