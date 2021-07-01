@@ -37,7 +37,7 @@ Setting up the environment
 
 3. Clone the Github repository 
 
-		git clone https://github.com/udacity/deep-reinforcement-learning.git
+		git clone https://github.com/alexkelly145/Udacity-banana-collector.git
 		cd deep-reinforcement-learning/python
 		pip install .
 
